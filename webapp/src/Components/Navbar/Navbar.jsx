@@ -13,7 +13,7 @@ function Navbar() {
 
     const [menu, setMenu] = useState("shop")
     const {getTotalCartItems} = useContext(ShopContext)
-
+ 
     let buttonClassName = "button-none"
     if(menu==='login') buttonClassName='navbar-login-button'
 
