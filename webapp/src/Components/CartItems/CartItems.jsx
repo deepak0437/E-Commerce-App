@@ -5,7 +5,7 @@ import remove_icon from '../Assets/cart_cross_icon.png'
 
 function CartItems() {
     const {getTotalCartAmount,all_product, cartItems, removeFromCart} = useContext(ShopContext)
-    console.log(cartItems,'wjhgfw guqrwg eirqough erqioghu qeoriu')
+    // console.log(cartItems,'wjhgfw guqrwg eirqough erqioghu qeoriu')
     // const [increaseQnty, setIncreaseQnty] = useState(0)
     // const [decreaseQnty, setDecreaseQnty] = useState(0)
 
